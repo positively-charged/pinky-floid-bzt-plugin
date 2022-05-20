@@ -1,0 +1,47 @@
+{
+    "name": "positively-charged/pinky-floid-plugin",
+    "description": "A plugin for bzt to handle Pinky Floid-specific functionality",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "PositivelyCharged\\PinkyFloidPlugin\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Positron",
+            "email": "positron@rogers.com"
+        }
+    ],
+
+
+  "repositories": [
+    {
+      "type": "path",
+      "url": "../goomway"
+    },
+    {
+      "type": "path",
+      "url": "../cmd-parser-php"
+    },
+    {
+      "type": "path",
+      "url": "../bzt-php"
+    },
+    {
+      "type": "path",
+      "url": "../pinky-floid-db-api"
+    },
+
+    {
+      "type": "path",
+      "url": "../cfginator"
+    }
+  ],
+
+    "require": {
+      "positively-charged/bzt": "*",
+      "positively-charged/pinky-floid-db-api": "*"
+    }
+}
